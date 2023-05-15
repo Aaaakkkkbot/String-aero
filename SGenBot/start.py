@@ -17,14 +17,14 @@ async def start(bot: Client, msg: Message):
 Tʜɪs ɪs {me2},
  sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
 
-Mᴀᴅᴇ🖤 ʙʏ : [AbhiModszYT](tg://user?id={OWNER_ID}) !""",
+Mᴀᴅᴇ🖤 ʙʏ : [Shinpei](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("Channel", url="https://t.me/AbhiModszYT_Return"),
+                    InlineKeyboardButton("Channel", url="https://t.me/Aerobots_tm"),
                     InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴩᴇʀ", user_id=OWNER_ID)
                 ]
             ]
